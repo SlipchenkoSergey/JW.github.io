@@ -1,0 +1,35 @@
+body h1  {
+	text-align: center;
+	font-size: 14px;
+	position: relative;
+
+}
+p {
+	padding: 10px;
+	width: 95%;
+	margin: 0 auto;
+}
+div {
+	    padding: 1em 80px 5em 80px;
+	    max-width: 75ex;
+		margin: 0 auto;
+		background-color: #f2f1ef;
+}
+em{
+	color: #2878bb;
+	cursor: pointer;
+
+}
+em:hover::after {
+    content: attr(data-title);
+    color: #118;
+    background-color: #f2f1ef;
+    position: fixed;
+    left: 5%;
+    top: 92%;
+    right: 5%;
+    padding: 5px 10px;
+    border: 1px solid #333;
+    font-family: Arial, sans-serif;
+    z-index: 10;
+}
